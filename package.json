@@ -1,0 +1,29 @@
+{
+  "name": "labtraversymernstack",
+  "version": "1.0.0",
+  "description": "spplication using the MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rstrickland1958/labtraversymernstack.git"
+  },
+  "author": "robert strickland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rstrickland1958/labtraversymernstack/issues"
+  },
+  "homepage": "https://github.com/rstrickland1958/labtraversymernstack#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
